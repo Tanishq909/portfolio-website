@@ -50,3 +50,36 @@ To install and run this project locally, follow these steps:
 1. Clone the repository:
    ```sh
    git clone https://github.com/Tanishq909/portfolio-website.git
+
+2. Navigate to the project directory:
+   ```sh
+   portfolio-website
+   
+3. Install the dependencies:
+   ```sh
+   npm install
+
+#Usage 🚀
+1. To start the development server, run:
+   ```sh
+   npm run dev
+   
+2. To build the project for production, run:
+   ```sh
+   npm run build
+   
+3. To preview the production build, run:
+   ```sh
+   npm run preview
+
+## License 📄
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+Thank you for visiting my portfolio website! If you have any questions or feedback, feel free to reach out to me through the contact section.
+
+**Live Link**: [https://tanishqkumar.vercel.app/](https://tanishqkumar.vercel.app/)
+
+```sh
+
+This `README.md` file provides a comprehensive overview of your portfolio website, including sections for Home, About, Projects, Contact, Technologies Used, Installation, Usage, and License, along with the live link to your website.
+
