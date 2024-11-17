@@ -2,6 +2,8 @@
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, and experience as a web developer.
 
+**Live Link**: [https://tanishqkumar.vercel.app/](https://tanishqkumar.vercel.app/)
+
 ## Table of Contents
 - [Home](#home)
 - [About](#about)
@@ -59,7 +61,7 @@ To install and run this project locally, follow these steps:
    ```sh
    npm install
 
-#Usage 🚀
+## Usage 🚀
 1. To start the development server, run:
    ```sh
    npm run dev
