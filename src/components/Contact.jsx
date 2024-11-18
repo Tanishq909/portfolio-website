@@ -35,7 +35,7 @@ const Contact = () => {
             </li>
             <li className="social-icons" data-aos="zoom-in" data-aos-duration="1000">
               <a
-                href="https://www.linkedin.com/in/tanishq909/"
+                href="https://www.linkedin.com/in/tanishq-kumar/"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
@@ -45,7 +45,7 @@ const Contact = () => {
             </li>
             <li className="social-icons" data-aos="zoom-in" data-aos-duration="1000">
               <a
-                href="https://www.instagram.com/tanishq909"
+                href="https://www.instagram.com/tanishqkumar2334"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour home-social-icons"
