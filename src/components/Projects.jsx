@@ -32,7 +32,7 @@ const Projects = () => {
             <ProjectCard
               imgPath={mernChatApp}
               title="MERN Chat App"
-              description="A full-stack chat application built with the MERN stack, featuring real-time messaging, user authentication, media upload/download, and responsive design."
+              description="A full-stack chat application built with the MERN stack, featuring real-time messaging, user authentication, media upload/download, and responsive design. This project showcases the integration of MongoDB, Express, React, and Node.js to create a seamless chat experience."
               ghLink="https://github.com/Tanishq909/mern-chat-app"
               demoLink="https://mern-chat-app-by-tanishq.vercel.app"
               data-aos="zoom-in" data-aos-duration="1000"
