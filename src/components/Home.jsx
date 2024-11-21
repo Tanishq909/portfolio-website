@@ -24,7 +24,7 @@ const Home = () => {
 
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container className="home-section" id="home">
         {/* <Particle /> */}
         <Container className="home-content" data-aos="fade-up-right" data-aos-duration="1000">
           <Row>

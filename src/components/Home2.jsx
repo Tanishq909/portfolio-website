@@ -14,7 +14,7 @@ const Home2 = () => {
                         <h1 style={{ fontSize: "2.6em" }}>
                             LET ME <span className="purple"> INTRODUCE </span> MYSELF
                         </h1>
-                        
+
                         <p className="home-about-body">
                             I am a beginner in Node.js, Express.js, and the MERN stack.
                             <br />
