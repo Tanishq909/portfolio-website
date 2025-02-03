@@ -16,7 +16,7 @@ const Home2 = () => {
                         </h1>
 
                         <p className="home-about-body">
-                            I am a beginner in Node.js, Express.js, and the MERN stack.
+                            I am a beginner in Node.js, Express.js, and the MERN stack,with a strong academic record, reflected by my CGPA of 9.0
                             <br />
                             <br />I am also learning
                             <i>
