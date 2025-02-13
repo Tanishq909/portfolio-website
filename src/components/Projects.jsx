@@ -4,6 +4,8 @@ import ProjectCard from "../components/Projects/ProjectCard";
 // import Particle from "../Particle";
 import hotelfinder from "../assets/Projects/hotelfinder.png";
 import mernChatApp from "../assets/Projects/mern-chat-app.png";
+import roleBasedProject from "../assets/Projects/role-based-project.png"; // Add the image for the new project
+
 
 const Projects = () => {
   return (
@@ -38,6 +40,18 @@ const Projects = () => {
               data-aos="zoom-in" data-aos-duration="1000"
             />
           </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={roleBasedProject}
+              title="Role-Based Project(Currently working)"
+              description="A role-based application with both frontend and backend components, demonstrating user authentication, role-based access control, and more. Built using React, Node.js, Express, and MongoDB."
+              ghLink="https://github.com/Tanishq909/Role-based"
+              demoLink="#"
+              data-aos="zoom-in" data-aos-duration="1000"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
