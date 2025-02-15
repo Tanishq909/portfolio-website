@@ -2,7 +2,9 @@
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, and experience as a web developer.
 
-**Live Link**: [https://tanishqkumar.vercel.app/](https://tanishqkumar.vercel.app/)
+**Live Link using Vercel**: [https://tanishqkumar.vercel.app/](https://tanishqkumar.vercel.app/)
+
+**Live Link using Firebase**: [https://tanishqkumar-ad052.web.app/](https://tanishqkumar-ad052.web.app/)
 
 ## Table of Contents
 - [Home](#home)
