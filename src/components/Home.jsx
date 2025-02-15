@@ -4,28 +4,25 @@ import homeLogo from '../assets/home-main.svg';
 import Home2 from './Home2';
 import Typed from 'typed.js';
 
-
 const Home = () => {
-  const typeofRef = useRef(null)  
+  const typeofRef = useRef(null);
   useEffect(() => {
-
     const options = {
       strings: ['Web Developer', 'React Developer', 'MERN Stack Developer', 'Full Stack Developer'],
       typeSpeed: 50,
       backSpeed: 50,
       loop: true
-    }
-    const typed = new Typed(typeofRef.current, options)
+    };
+    const typed = new Typed(typeofRef.current, options);
 
     return () => {
-      typed.destroy()
-    }
-  },[])
+      typed.destroy();
+    };
+  }, []);
 
   return (
     <section>
       <Container className="home-section" id="home">
-        {/* <Particle /> */}
         <Container className="home-content" data-aos="fade-up-right" data-aos-duration="1000">
           <Row>
             <Col md={7} className="home-header">

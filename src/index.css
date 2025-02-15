@@ -1,20 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+/* Global Styles */
 body {
   margin: 0;
   font-family: "Raleway", serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: black;
-  background-color: #2D2B43 ; */
   background-image: linear-gradient(to left, rgb(144, 105, 220), rgb(20 15 35));
   color: white;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
-
 
 html {
   --section-background-color: linear-gradient(
@@ -41,8 +39,6 @@ html {
   border-right: 0.15em solid #d38bfc;
 }
 
-
-
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -52,7 +48,7 @@ button:focus {
 }
 
 /* Navbar */
-.nav_bar{
+.nav_bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,20 +59,27 @@ button:focus {
   padding-bottom: 0.1px;
   font-size: 1.2rem;
   font-weight: bold;
+  color: white; 
 }
 
 .nav_bar .nav_items:hover {
   border-bottom: 3px solid #b06cd8;
 }
 
-/* --------- */
-/* Home section Using react bootstrap */ 
-/* --------- */
+
+@media (max-width: 767px) {
+  .nav_bar .nav_items {
+    padding: 10px;
+    font-size: 1rem;
+  }
+}
+
+/* Home section */
 .wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  animation-name: wave-animation;
+  animation-duration: 2.1s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
   display: inline-block;
 }
 
@@ -86,7 +89,7 @@ button:focus {
   }
   10% {
     transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
+  }
   20% {
     transform: rotate(-8deg);
   }
@@ -101,12 +104,11 @@ button:focus {
   }
   60% {
     transform: rotate(0deg);
-  } /* Reset for the last half to pause */
+  }
   100% {
     transform: rotate(0deg);
   }
 }
-
 
 .home-header {
   padding-top: 80px !important;
@@ -143,52 +145,35 @@ button:focus {
 }
 
 .img-fluid {
-  /* height: 300px;
-  width: 300px; */
   border-radius: 100%;
 }
 
-/* @keyframes identifier {
-  0% {
-    border-color : yellow;
-    transform:translate(0,0px);
-    box-shadow:10px 10px 100px 50px blue;
-
-  }
-  25% {
-
-  }
-  50%{
-
-  }
-  75% {
-
-  }
-  100% {
-
-  }
-} */
-
-
-/* --------- */
-/* Type.jsx*/ 
-/* --------- */
-
-
-
-/* --------- */
-/* home down wali */ 
-/* --------- */
 .myAvtar {
   justify-content: center !important;
   padding-top: 9em !important;
 }
+
 @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
   }
+  .home-content {
+    padding: 4rem 0 2rem !important;
+  }
+  .heading {
+    font-size: 1.8em !important;
+    padding-left: 20px !important;
+  }
+  .heading-name {
+    font-size: 2em !important;
+    padding-left: 20px !important;
+  }
+  .typed-text {
+    font-size: 1.8rem;
+  }
 }
+
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
@@ -235,7 +220,6 @@ button:focus {
   transition: 0.5s !important;
 }
 
-
 .home-social-icons::before {
   content: "";
   position: absolute;
@@ -271,11 +255,7 @@ button:focus {
   color: #700c86 !important;
 }
 
-
-/* --------- */
-/* About */
-/* --------- */
-
+/* About section */
 .about-section {
   position: relative !important;
   padding-top: 150px !important;
@@ -310,6 +290,7 @@ button:focus {
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
+
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
@@ -333,9 +314,7 @@ button:focus {
   }
 }
 
-/* --------- */
-/* Projects */
-/* --------- */
+/* Projects section */
 .project-section {
   position: relative !important;
   padding-top: 150px !important;
@@ -359,6 +338,7 @@ button:focus {
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
@@ -419,18 +399,18 @@ button:focus {
   background-color: #6d20c5d7 !important;
   border-color: #6d20c5d7 !important;
 }
+
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
 }
+
 .project-heading {
   color: white !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
 }
-
-
 
 /* Footer */
 .footer {

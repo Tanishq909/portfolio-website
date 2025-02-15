@@ -1,25 +1,24 @@
-import React from 'react'
+import React from 'react';
+import { Container, Nav, Navbar as BootstrapNavbar } from 'react-bootstrap';
 
 const Navbar = () => {
   return (
-    <div>
-      <>
-        <div className="container nav_bar"
-        data-aos="fade-down"
-        data-aos-duration="1000"
-        >
-          <div className="left nav_items">Portfolio</div>
-          <div className="right">
-            <a href="#home" className="nav_items">Home</a>
-            <a href="#about" className="nav_items">About</a>
-            <a href="#projects" className="nav_items">Projects</a>
-            <a href="#resume" className="nav_items">Resume</a>   {/* For future use */}
-            <a href="#contact" className="nav_items">Contact</a>
-          </div>
-        </div>
-      </>
-    </div>
-  )
+    <BootstrapNavbar expand="lg" className="nav_bar" data-aos="fade-down" data-aos-duration="1000">
+      <Container>
+        <BootstrapNavbar.Brand className="nav_items">Portfolio</BootstrapNavbar.Brand>
+        <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
+        <BootstrapNavbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto">
+            <Nav.Link href="#home" className="nav_items">Home</Nav.Link>
+            <Nav.Link href="#about" className="nav_items">About</Nav.Link>
+            <Nav.Link href="#projects" className="nav_items">Projects</Nav.Link>
+            <Nav.Link href="#resume" className="nav_items">Resume</Nav.Link>
+            <Nav.Link href="#contact" className="nav_items">Contact</Nav.Link>
+          </Nav>
+        </BootstrapNavbar.Collapse>
+      </Container>
+    </BootstrapNavbar>
+  );
 }
 
-export default Navbar
+export default Navbar;
