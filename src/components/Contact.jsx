@@ -15,7 +15,7 @@ const Contact = () => {
           <ul className="home-about-social-links">
             <li className="social-icons" data-aos="zoom-in" data-aos-duration="1000">
               <a
-                href="https://github.com/Tanishq909"
+                href="https://github.com/tanishq9090"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
